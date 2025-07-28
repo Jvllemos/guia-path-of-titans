@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Criaturas Jogáveis | Guia de Campo</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Teko:wght@400;600&family=Montserrat:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <script src="script.js" defer></script>
+</head>
+<body class="corpo-galeria">
+
+    <nav class="navegacao-principal">
+        <a href="index.html">
+            <img src="img/logo-horizontal.png" alt="Logo do Path of Titans Wiki" class="logo">
+        </a>
+        <div class="links-navegacao">
+            <a href="index.html#home">Home</a>
+            <a href="index.html#sobre">Sobre</a>
+            <a href="index.html#mapas">Mapas</a>
+            <a href="index.html#comprar">Adquira o Jogo</a>
+        </div>
+    </nav>
+
+    <header class="cabecalho-galeria">
+        <div class="container">
+            <h2>Criaturas Jogáveis</h2>
+            <p>Use a busca e os filtros para encontrar a criatura perfeita para seu estilo de jogo.</p>
+            <div class="container-busca">
+                <input type="search" id="barra-pesquisa" placeholder="Pesquisar por nome...">
+            </div>
+        </div>
+    </header>
+
+    <nav class="controles-filtro">
+        <div class="grupo-filtro" id="filtro-dieta">
+            <button class="ativo" data-filtro="dieta" data-valor="Todos">Todos</button>
+            <button data-filtro="dieta" data-valor="Carnívoro">Carnívoros</button>
+            <button data-filtro="dieta" data-valor="Herbívoro">Herbívoros</button>
+        </div>
+        <div class="grupo-filtro" id="filtro-tipo">
+            <button class="ativo" data-filtro="tipo" data-valor="Todos">Todos</button>
+            <button data-filtro="tipo" data-valor="Terrestre">Terrestres</button>
+            <button data-filtro="tipo" data-valor="Voador">Voadores</button>
+            <button data-filtro="tipo" data-valor="Aquático">Aquáticos</button>
+            <button data-filtro="tipo" data-valor="Semi-Aquático">Semi-Aquáticos</button>
+        </div>
+        <div class="grupo-filtro">
+            <label for="seletor-ordem">Ordenar por:</label>
+            <select id="seletor-ordem">
+                <option value="padrao">Padrão</option>
+                <option value="nome-asc">Nome (A-Z)</option>
+                <option value="dano-desc">Maior Dano</option>
+                <option value="defesa-desc">Maior Defesa</option>
+                <option value="velocidade-desc">Mais Rápido</option>
+            </select>
+        </div>
+    </nav>
+
+    <main id="galeria-container" class="container">
+        <p class="mensagem-carregando">Carregando criaturas...</p>
+    </main>
+
+    <footer class="rodape">
+        <p>&copy; 2025 Guia de Campo Path of Titans. Todas as imagens e nomes são propriedade de Alderon Games.</p>
+        <p>Desenvolvido por Jvllemos</p>
+    </footer>
+
+    <div id="modal-container" class="modal-escondido">
+        <div class="modal-conteudo">
+            <button class="modal-fechar">&times;</button>
+            <div class="modal-corpo">
+            </div>
+        </div>
+    </div>
+
+    <button id="botao-topo" class="escondido" title="Voltar ao topo">
+        <i class="fas fa-arrow-up"></i>
+    </button>
+    
+</body>
+</html>

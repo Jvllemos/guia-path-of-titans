@@ -1,0 +1,1010 @@
+[
+  {
+    "name": "Achillobator",
+    "dieta": "Carnívoro",
+    "tipo": "Terrestre",
+    "estatisticas": {
+      "Dano": "★★★",
+      "Defesa": "★★",
+      "Recuperação": "★★",
+      "Velocidade em terra": "★★★★",
+      "Velocidade na água": "★"
+    },
+    "descricao": "Um raptor robusto de porte médio, mais lento que seus primos menores, mas compensa com maior resiliência e um ataque de garras que causa dano de sangramento significativo. É um brawler eficaz contra alvos de tamanho similar.",
+    "subespecies": [
+      {
+        "nome": "Giganticus",
+        "bonus": "+20% de Dano de Sangramento"
+      },
+      {
+        "nome": "Calvus",
+        "bonus": "+50% de Velocidade de Aceleração"
+      },
+      {
+        "nome": "Barbatus",
+        "bonus": "+10% de Recuperação de Vida"
+      }
+    ],
+    "imagem": "https://web-cdn.pathoftitans.com/Uploads/261/conversions/71c121e184b63bb4a8c7de6df221fe6d-banner.jpg"
+  },
+  {
+    "name": "Alioramus",
+    "dieta": "Carnívoro",
+    "tipo": "Terrestre",
+    "estatisticas": {
+      "Dano": "★★",
+      "Defesa": "★",
+      "Recuperação": "★★★★",
+      "Velocidade em terra": "★★★★★",
+      "Velocidade na água": "★"
+    },
+    "descricao": "Um tiranossaurídeo pequeno e incrivelmente rápido, conhecido por sua agilidade e capacidade de perseguir presas velozes. Seu estilo de jogo é baseado em ataques rápidos e recuos estratégicos para cansar o oponente.",
+    "subespecies": [
+      {
+        "nome": "Robustus",
+        "bonus": "+10% de Vida"
+      },
+      {
+        "nome": "Velox",
+        "bonus": "+10% de Velocidade de Corrida"
+      },
+      {
+        "nome": "Potens",
+        "bonus": "+5% de Dano de Mordida"
+      }
+    ],
+    "imagem": "https://dinosaur-web-space.sfo2.cdn.digitaloceanspaces.com/BlogImages/AlioReleased.jpg"
+  },
+  {
+    "name": "Allosaurus",
+    "dieta": "Carnívoro",
+    "tipo": "Terrestre",
+    "estatisticas": {
+      "Dano": "★★★",
+      "Defesa": "★★",
+      "Recuperação": "★★",
+      "Velocidade em terra": "★★★★",
+      "Velocidade na água": "★"
+    },
+    "descricao": "Um predador de ápice bem balanceado, eficaz em caçadas solo ou em grupo. Sua mordida causa uma laceração profunda, ferindo as presas ao longo do tempo e tornando-o um perseguidor implacável.",
+    "subespecies": [
+      {
+        "nome": "Europaeus",
+        "bonus": "+5% de Dano de Laceração"
+      },
+      {
+        "nome": "Jimmadseni",
+        "bonus": "+5% de Velocidade de Corrida"
+      },
+      {
+        "nome": "Fragilis",
+        "bonus": "+10% de Vida"
+      }
+    ],
+    "imagem": "https://www.bisecthosting.com/_ipx/q_100/static/img/blog/cat-path-of-titans.webp"
+  },
+  {
+    "name": "Ceratosaurus",
+    "dieta": "Carnívoro",
+    "tipo": "Terrestre",
+    "estatisticas": {
+      "Dano": "★★★★",
+      "Defesa": "★★★",
+      "Recuperação": "★★",
+      "Velocidade em terra": "★★★",
+      "Velocidade na água": "★"
+    },
+    "descricao": "Um carnívoro ágil com uma mordida carregada e venenosa que enfraquece suas presas ao longo do tempo. É um excelente duelista, capaz de nadar bem para surpreender suas vítimas.",
+    "subespecies": [
+      {
+        "nome": "Nasicornis",
+        "bonus": "+5% de Velocidade de Corrida"
+      },
+      {
+        "nome": "Dentisulcatus",
+        "bonus": "+10% de Dano da Mordida Carregada"
+      },
+      {
+        "nome": "Magnicornis",
+        "bonus": "+10% de Velocidade de Corrida"
+      }
+    ],
+    "imagem": "https://pbs.twimg.com/media/Earyij7XkAAq4RQ.jpg"
+  },
+  {
+    "name": "Concavenator",
+    "dieta": "Carnívoro",
+    "tipo": "Semi-Aquático",
+    "estatisticas": {
+      "Dano": "★★★",
+      "Defesa": "★★",
+      "Recuperação": "★★★",
+      "Velocidade em terra": "★★★",
+      "Velocidade na água": "★★"
+    },
+    "descricao": "Um caçador veloz e especialista em sangramento, mortal tanto na terra quanto em águas rasas. Sua versatilidade o torna ideal para emboscar presas desatentas na beira d'água.",
+    "subespecies": [
+      {
+        "nome": "Corcovatum",
+        "bonus": "+10% de Velocidade de Natação"
+      },
+      {
+        "nome": "Garridoi",
+        "bonus": "+10% de Vida"
+      },
+      {
+        "nome": "Cervera",
+        "bonus": "+5% de Dano de Sangramento"
+      }
+    ],
+    "imagem": "https://cdn.alderongames.wiki/pot-wiki/master/ConcaSunsetHeader.jpg"
+  },
+  {
+    "name": "Daspletosaurus",
+    "dieta": "Carnívoro",
+    "tipo": "Terrestre",
+    "estatisticas": {
+      "Dano": "★★★★",
+      "Defesa": "★★★",
+      "Recuperação": "★★",
+      "Velocidade em terra": "★★★",
+      "Velocidade na água": "★"
+    },
+    "descricao": "Um tiranossaurídeo menor, mas feroz, com a habilidade única de 'Tirania', que drena a estamina de suas presas, tornando a fuga quase impossível e garantindo o abate.",
+    "subespecies": [
+      {
+        "nome": "Torosus",
+        "bonus": "+10% de Vida"
+      },
+      {
+        "nome": "Horneri",
+        "bonus": "+15% de Raio de Giro"
+      },
+      {
+        "nome": "Wilsoni",
+        "bonus": "+5% de Dano de Mordida"
+      }
+    ],
+    "imagem": "https://dinosaur-web-space.sfo2.cdn.digitaloceanspaces.com/BlogImages/DaspletoTLCPreview1.jpg"
+  },
+  {
+    "name": "Deinonychus",
+    "dieta": "Carnívoro",
+    "tipo": "Terrestre",
+    "estatisticas": {
+      "Dano": "★",
+      "Defesa": "★",
+      "Recuperação": "★★★★★",
+      "Velocidade em terra": "★★★★★",
+      "Velocidade na água": "★"
+    },
+    "descricao": "Um raptor pequeno e extremamente rápido, especialista em ataques de 'bater e correr'. Pode se agarrar a oponentes para causar sangramento contínuo com suas garras afiadas.",
+    "subespecies": [
+      {
+        "nome": "Antirrhopus",
+        "bonus": "+10% de Estamina"
+      },
+      {
+        "nome": "Velox",
+        "bonus": "+5% de Velocidade de Corrida"
+      },
+      {
+        "nome": "Robustus",
+        "bonus": "+10% de Dano de Garra"
+      }
+    ],
+    "imagem": "https://images.squarespace-cdn.com/content/v1/5bb02004d74562f45014f525/bf3cb9b7-9d0a-41f5-b9e5-c644f981484d/DeinonychusAmaroq.png"
+  },
+  {
+    "name": "Eurhinosaurus",
+    "dieta": "Carnívoro",
+    "tipo": "Aquático",
+    "estatisticas": {
+      "Dano": "★★",
+      "Defesa": "★★",
+      "Recuperação": "★★",
+      "Velocidade em terra": "★",
+      "Velocidade na água": "★★★★★"
+    },
+    "descricao": "Um ictiossauro com um 'nariz' em forma de espada, especializado em investidas aquáticas de alta velocidade para perfurar e causar sangramento em suas presas. É um dos nadadores mais ágeis do jogo.",
+    "subespecies": [
+      {
+        "nome": "Longirostris",
+        "bonus": "+10% de Velocidade de Natação"
+      },
+      {
+        "nome": "Brevifrons",
+        "bonus": "+10% de Dano de Sangramento da Investida"
+      },
+      {
+        "nome": "Conyi",
+        "bonus": "+10% de Vida"
+      }
+    ],
+    "imagem": "https://dinosaur-web-space.sfo2.cdn.digitaloceanspaces.com/BlogImages/eurhino_screenshot-2023-10-27-02h02m43s770.png"
+  },
+  {
+    "name": "Hatzegopteryx",
+    "dieta": "Carnívoro",
+    "tipo": "Voador",
+    "estatisticas": {
+      "Dano": "★★★★",
+      "Defesa": "★★★",
+      "Recuperação": "★★★",
+      "Velocidade em terra": "★★★",
+      "Velocidade na água": "★"
+    },
+    "descricao": "Um pterossauro gigante e predador, que aterroriza tanto o céu quanto criaturas pequenas em terra. Seu voo poderoso e bico afiado o tornam uma ameaça aérea constante.",
+    "subespecies": [
+      {
+        "nome": "Thambema",
+        "bonus": "+5% de Velocidade de Voo"
+      },
+      {
+        "nome": "Vladi",
+        "bonus": "+10% de Estamina"
+      },
+      {
+        "nome": "Dobrinsko",
+        "bonus": "+5% de Dano de Bicada"
+      }
+    ],
+    "imagem": "https://dinosaur-web-space.sfo2.cdn.digitaloceanspaces.com/BlogImages/Hatz6.jpg"
+  },
+  {
+    "name": "Kaiwhekea",
+    "dieta": "Carnívoro",
+    "tipo": "Aquático",
+    "estatisticas": {
+      "Dano": "★",
+      "Defesa": "★★",
+      "Recuperação": "★★★",
+      "Velocidade em terra": "★",
+      "Velocidade na água": "★★★★★"
+    },
+    "descricao": "Um plesiossauro ágil e elegante, que se move com velocidade e graça nas profundezas. Usa seu pescoço longo para capturar peixes e atacar oponentes de ângulos inesperados.",
+    "subespecies": [
+      {
+        "nome": "Katiki",
+        "bonus": "+5% de Velocidade de Natação"
+      },
+      {
+        "nome": "Youngi",
+        "bonus": "+10% de Estamina"
+      },
+      {
+        "nome": "Keenani",
+        "bonus": "+10% de Vida"
+      }
+    ],
+    "imagem": "https://cdnb.artstation.com/p/assets/images/images/059/763/313/large/grim-ryberg-image-2023-02-22-184725845.jpg?1677949218"
+  },
+  {
+    "name": "Latenivenatrix",
+    "dieta": "Carnívoro",
+    "tipo": "Terrestre",
+    "estatisticas": {
+      "Dano": "★★",
+      "Defesa": "★★",
+      "Recuperação": "★★★★",
+      "Velocidade em terra": "★★★★★",
+      "Velocidade na água": "★"
+    },
+    "descricao": "Um raptor ágil e especialista em emboscadas, capaz de se agarrar em presas maiores para cansá-las com sua garra em forma de foice. Sua alta estamina o torna um perseguidor incansável.",
+    "subespecies": [
+      {
+        "nome": "Ornitholestes",
+        "bonus": "+10% de Altura de Pulo"
+      },
+      {
+        "nome": "Troodon",
+        "bonus": "+10% de Estamina"
+      },
+      {
+        "nome": "Audax",
+        "bonus": "Reduz o custo de estamina para se agarrar"
+      }
+    ],
+    "imagem": "https://dinosaur-web-space.sfo2.cdn.digitaloceanspaces.com/BlogImages/LatenivenatrixTLCPreview2.jpg"
+  },
+  {
+    "name": "Megalania",
+    "dieta": "Carnívoro",
+    "tipo": "Terrestre",
+    "estatisticas": {
+      "Dano": "★★",
+      "Defesa": "★★",
+      "Recuperação": "★★",
+      "Velocidade em terra": "★★★★",
+      "Velocidade na água": "★★"
+    },
+    "descricao": "Um lagarto monitor gigante com uma mordida venenosa e a incrível capacidade de escalar quase qualquer superfície, tornando-o um predador de emboscada mortal e difícil de escapar.",
+    "subespecies": [
+      {
+        "nome": "Priscus",
+        "bonus": "+10% de Resistência a Veneno"
+      },
+      {
+        "nome": "Gouldi",
+        "bonus": "+10% de Velocidade de Escalada"
+      },
+      {
+        "nome": "Varanus",
+        "bonus": "+5% de Dano de Veneno"
+      }
+    ],
+    "imagem": "https://dinosaur-web-space.sfo2.cdn.digitaloceanspaces.com/BlogImages/MegalaniaPreview2.jpg"
+  },
+  {
+    "name": "Metriacanthosaurus",
+    "dieta": "Carnívoro",
+    "tipo": "Terrestre",
+    "estatisticas": {
+      "Dano": "★★★",
+      "Defesa": "★★",
+      "Recuperação": "★★",
+      "Velocidade em terra": "★★★★",
+      "Velocidade na água": "★"
+    },
+    "descricao": "Um predador rápido com uma mordida venenosa que corrói lentamente a vida de suas vítimas. É eficaz para caçar presas de porte médio, enfraquecendo-as antes do abate final.",
+    "subespecies": [
+      {
+        "nome": "Parkeri",
+        "bonus": "+5% de Dano de Veneno"
+      },
+      {
+        "nome": "Wuhuensis",
+        "bonus": "+5% de Velocidade de Corrida"
+      },
+      {
+        "nome": "Shangyouensis",
+        "bonus": "+10% de Resistência a Veneno"
+      }
+    ],
+    "imagem": "https://dinosaur-web-space.sfo2.cdn.digitaloceanspaces.com/BlogImages/MetriDuo2.jpg"
+  },
+  {
+    "name": "Pycnonemosaurus",
+    "dieta": "Carnívoro",
+    "tipo": "Terrestre",
+    "estatisticas": {
+      "Dano": "★★★",
+      "Defesa": "★★",
+      "Recuperação": "★★",
+      "Velocidade em terra": "★★★★★",
+      "Velocidade na água": "★"
+    },
+    "descricao": "Um corredor surpreendentemente rápido para seu tamanho, especialista em investidas de alto dano que podem quebrar ossos e incapacitar oponentes com um único e poderoso ataque.",
+    "subespecies": [
+      {
+        "nome": "Nevesi",
+        "bonus": "+10% de Vida"
+      },
+      {
+        "nome": "Kellneri",
+        "bonus": "+5% de Velocidade de Corrida"
+      },
+      {
+        "nome": "Mezzalirari",
+        "bonus": "+10% de Dano da Investida"
+      }
+    ],
+    "imagem": "https://dinosaur-web-space.sfo2.cdn.digitaloceanspaces.com/BlogImages/PycnoTLCImage3.jpg"
+  },
+  {
+  "name": "Rhamphorhynchus",
+  "dieta": "Carnívoro",
+  "tipo": "Voador",
+  "estatisticas": {
+    "Dano": "★",
+    "Defesa": "★",
+    "Recuperação": "★★★★",
+    "Velocidade em terra": "★",
+    "Velocidade na água": "★★★"
+  },
+  "descricao": "Um dos menores voadores do jogo, o Rhamphorhynchus é um pescador extremamente ágil. Embora frágil em combate direto, sua alta recuperação de estamina e manobrabilidade o tornam um sobrevivente habilidoso, perfeito para ataques rápidos e para escapar de predadores maiores.",
+  "subespecies": [
+    {
+      "nome": "Muensteri",
+      "bonus": "+10% de Estamina"
+    },
+    {
+      "nome": "Gemmingi",
+      "bonus": "+10% de Velocidade de Natação"
+    },
+    {
+      "nome": "Longiceps",
+      "bonus": "+20% de Força do Freio Aéreo"
+    }
+  ],
+  "imagem": "https://dinosaur-web-space.sfo2.cdn.digitaloceanspaces.com/BlogImages/RhampyImage2.jpg"
+},
+  {
+    "name": "Sarcosuchus",
+    "dieta": "Carnívoro",
+    "tipo": "Semi-Aquático",
+    "estatisticas": {
+      "Dano": "★★★★",
+      "Defesa": "★★★",
+      "Recuperação": "★★",
+      "Velocidade em terra": "★",
+      "Velocidade na água": "★★★★"
+    },
+    "descricao": "O 'Super-Crocodilo', um mestre da emboscada aquática com uma mordida esmagadora. Sua habilidade de agarrar e arrastar presas para a água o torna um terror dos rios.",
+    "subespecies": [
+      {
+        "nome": "Imperator",
+        "bonus": "+10% de Dano da Mordida Carregada"
+      },
+      {
+        "nome": "Hartei",
+        "bonus": "+10% de Vida"
+      },
+      {
+        "nome": "Lapparenti",
+        "bonus": "+5% de Velocidade de Natação"
+      }
+    ],
+    "imagem": "https://cdna.artstation.com/p/assets/images/images/041/321/276/large/rebecca-slater-sarcoheader.jpg?1631374294"
+  },
+  {
+    "name": "Spinosaurus",
+    "dieta": "Carnívoro",
+    "tipo": "Semi-Aquático",
+    "estatisticas": {
+      "Dano": "★★★★",
+      "Defesa": "★★★★",
+      "Recuperação": "★★",
+      "Velocidade em terra": "★",
+      "Velocidade na água": "★★★★★"
+    },
+    "descricao": "O maior predador carnívoro do jogo, perfeitamente adaptado para a caça em rios e lagos. Suas garras e sua postura bípede na água o tornam um combatente aquático sem igual.",
+    "subespecies": [
+      {
+        "nome": "Aegyptiacus",
+        "bonus": "+10% de Velocidade de Natação"
+      },
+      {
+        "nome": "Maroccanus",
+        "bonus": "+5% de Dano de Ataque"
+      },
+      {
+        "nome": "Arrambam",
+        "bonus": "+10% de Raio de Giro na Água"
+      }
+    ],
+    "imagem": "https://dinosaur-web-space.sfo2.digitaloceanspaces.com/BlogImages/spino1.jpg"
+  },
+  {
+    "name": "Suchomimus",
+    "dieta": "Carnívoro",
+    "tipo": "Semi-Aquático",
+    "estatisticas": {
+      "Dano": "★★★",
+      "Defesa": "★★★",
+      "Recuperação": "★★",
+      "Velocidade em terra": "★★",
+      "Velocidade na água": "★★★★"
+    },
+    "descricao": "Um pescador ágil com garras longas, ideal para capturar presas aquáticas e terrestres de porte médio. É um sobrevivente versátil, confortável em múltiplos ambientes.",
+    "subespecies": [
+      {
+        "nome": "Tenerensis",
+        "bonus": "+5% de Dano de Garra"
+      },
+      {
+        "nome": "Lapparenti",
+        "bonus": "+10% de Velocidade de Natação"
+      },
+      {
+        "nome": "Anguilla",
+        "bonus": "+10% de Raio de Giro na Água"
+      }
+    ],
+    "imagem": "https://pbs.twimg.com/media/EGqdHN6WwAAEDcB?format=jpg&name=large"
+  },
+  {
+    "name": "Thalassodromeus",
+    "dieta": "Carnívoro",
+    "tipo": "Voador",
+    "estatisticas": {
+      "Dano": "★",
+      "Defesa": "★",
+      "Recuperação": "★★★★",
+      "Velocidade em terra": "★★★★",
+      "Velocidade na água": "★"
+    },
+    "descricao": "Um voador ágil e de suporte. Pode fortalecer aliados e enfraquecer inimigos com seus gritos, além de ser um excelente pescador para se alimentar rapidamente.",
+    "subespecies": [
+      {
+        "nome": "Seth",
+        "bonus": "+5% de Velocidade de Voo"
+      },
+      {
+        "nome": "Piscator",
+        "bonus": "+5% de Raio de Giro no Ar"
+      },
+      {
+        "nome": "Stridens",
+        "bonus": "Aumenta o alcance dos Gritos"
+      }
+    ],
+    "imagem": "https://cdna.artstation.com/p/assets/images/images/059/093/126/large/grim-ryberg-image-2023-02-05-221951810.jpg?1675632696"
+  },
+  {
+    "name": "Tyrannosaurus",
+    "dieta": "Carnívoro",
+    "tipo": "Terrestre",
+    "estatisticas": {
+      "Dano": "★★★★★",
+      "Defesa": "★★★★★",
+      "Recuperação": "★",
+      "Velocidade em terra": "★★",
+      "Velocidade na água": "★"
+    },
+    "descricao": "O rei dos tiranos, um predador de ápice com uma mordida devastadora capaz de quebrar ossos. É lento, mas sua força bruta e alta resistência o tornam quase imparável em um confronto direto.",
+    "subespecies": [
+      {
+        "nome": "Rex",
+        "bonus": "+25% de Resistência a Knockback"
+      },
+      {
+        "nome": "Bataar",
+        "bonus": "+3% de Dano de Ataque"
+      },
+      {
+        "nome": "Sanguis",
+        "bonus": "+10% de Dano de Fratura"
+      }
+    ],
+    "imagem": "https://pbs.twimg.com/media/GnEL5PjWUAIPRK3?format=jpg&name=large"
+  },
+  {
+  "name": "Tyrannotitan",
+  "dieta": "Carnívoro",
+  "tipo": "Terrestre",
+  "estatisticas": {
+    "Dano": "★★★★★",
+    "Defesa": "★★★★",
+    "Recuperação": "★",
+    "Velocidade em terra": "★★",
+    "Velocidade na água": "★"
+  },
+  "descricao": "Um carcarodontossaurídeo colossal, o Tyrannotitan é um predador de ápice focado em causar dano massivo e sangramento. Sua mordida é brutal e sua constituição robusta o torna um adversário temível em qualquer confronto direto.",
+  "subespecies": [
+    {
+      "nome": "Chubutensis",
+      "bonus": "+10% de Dano de Sangramento"
+    },
+    {
+      "nome": "Valdos",
+      "bonus": "+5% de Velocidade de Corrida"
+    },
+    {
+      "nome": "Brontops",
+      "bonus": "+10% de Vida"
+    }
+  ],
+  "imagem": "https://dinosaur-web-space.sfo2.cdn.digitaloceanspaces.com/BlogImages/TyrannotitanPreview2.jpg"
+},
+  {
+    "name": "Albertaceratops",
+    "dieta": "Herbívoro",
+    "tipo": "Terrestre",
+    "estatisticas": {
+      "Dano": "★★★",
+      "Defesa": "★★★",
+      "Recuperação": "★★",
+      "Velocidade em terra": "★★",
+      "Velocidade na água": "★★"
+    },
+    "descricao": "Um ceratopsídeo ágil com chifres longos e únicos. É um especialista em combate de carga, usando sua velocidade para derrubar oponentes e criar aberturas para o rebanho.",
+    "subespecies": [
+      {
+        "nome": "Nesmoi",
+        "bonus": "+10% de Dano da Investida"
+      },
+      {
+        "nome": "Sternbergi",
+        "bonus": "+5% de Velocidade de Corrida"
+      },
+      {
+        "nome": "Borealis",
+        "bonus": "+10% de Vida"
+      }
+    ],
+    "imagem": "https://dinosaur-web-space.sfo2.cdn.digitaloceanspaces.com/BlogImages/AlbertaTLC1.jpg"
+  },
+  {
+    "name": "Amargasaurus",
+    "dieta": "Herbívoro",
+    "tipo": "Terrestre",
+    "estatisticas": {
+      "Dano": "★★★",
+      "Defesa": "★★★",
+      "Recuperação": "★★",
+      "Velocidade em terra": "★",
+      "Velocidade na água": "★★★"
+    },
+    "descricao": "Um saurópode único com espinhos no pescoço que causam sangramento em quem ousar atacar. É um defensor de área eficaz, capaz de proteger a si e a seu rebanho com seus ataques defensivos.",
+    "subespecies": [
+      {
+        "nome": "Cazaui",
+        "bonus": "+10% de Dano de Sangramento"
+      },
+      {
+        "nome": "Stomping",
+        "bonus": "+10% de Dano de Pisoteio"
+      },
+      {
+        "nome": "Spinosus",
+        "bonus": "+10% de Vida"
+      }
+    ],
+    "imagem": "https://dinosaur-web-space.sfo2.cdn.digitaloceanspaces.com/BlogImages/Amarga1.jpg"
+  },
+  {
+    "name": "Anodontosaurus",
+    "dieta": "Herbívoro",
+    "tipo": "Terrestre",
+    "estatisticas": {
+      "Dano": "★★★★",
+      "Defesa": "★★★★",
+      "Recuperação": "★",
+      "Velocidade em terra": "★",
+      "Velocidade na água": "★"
+    },
+    "descricao": "Uma verdadeira fortaleza ambulante, protegido por uma armadura óssea impenetrável e uma cauda em forma de clava que quebra ossos com facilidade. É lento, mas extremamente durável.",
+    "subespecies": [
+      {
+        "nome": "Lambei",
+        "bonus": "+10% de Dano de Fratura"
+      },
+      {
+        "nome": "Inermis",
+        "bonus": "+10% de Resistência a Fratura"
+      },
+      {
+        "nome": "Robustus",
+        "bonus": "+10% de Vida"
+      }
+    ],
+    "imagem": "https://dinosaur-web-space.sfo2.cdn.digitaloceanspaces.com/BlogImages/AnodontosaurusTLCImage3.jpg"
+  },
+  {
+    "name": "Barsboldia",
+    "dieta": "Herbívoro",
+    "tipo": "Terrestre",
+    "estatisticas": {
+      "Dano": "★★★★",
+      "Defesa": "★★★",
+      "Recuperação": "★★★",
+      "Velocidade em terra": "★★",
+      "Velocidade na água": "★★★"
+    },
+    "descricao": "Um hadrossauro com um grito poderoso que pode aumentar as defesas de seus aliados. Sua cauda pesada também é uma arma formidável, capaz de atordoar predadores.",
+    "subespecies": [
+      {
+        "nome": "Sicinskii",
+        "bonus": "+10% de Dano de Ataque de Cauda"
+      },
+      {
+        "nome": "Maryanskae",
+        "bonus": "+10% de Alcance dos Gritos"
+      },
+      {
+        "nome": "Tsaagan",
+        "bonus": "+10% de Vida"
+      }
+    ],
+    "imagem": "https://dinosaur-web-space.sfo2.cdn.digitaloceanspaces.com/BlogImages/BarsHerd_Blogpost.jpg"
+  },
+  {
+    "name": "Camptosaurus",
+    "dieta": "Herbívoro",
+    "tipo": "Terrestre",
+    "estatisticas": {
+      "Dano": "★",
+      "Defesa": "★",
+      "Recuperação": "★★★★",
+      "Velocidade em terra": "★★★",
+      "Velocidade na água": "★★"
+    },
+    "descricao": "Pequeno, rápido e especialista em evasão e suporte. Usa seus gritos para desorientar predadores, permitindo a fuga de si mesmo e de seus aliados.",
+    "subespecies": [
+      {
+        "nome": "Prestwichii",
+        "bonus": "+10% de Duração dos Gritos"
+      },
+      {
+        "nome": "Dispar",
+        "bonus": "+10% de Estamina"
+      },
+      {
+        "nome": "Validus",
+        "bonus": "+5% de Velocidade de Corrida"
+      }
+    ],
+    "imagem": "https://cdnb.artstation.com/p/assets/images/images/041/350/535/large/rebecca-slater-pathoftitans-win64-shipping-screenshot-2021-09-12-13-13-04-01.jpg?1631469022"
+  },
+  {
+    "name": "Deinocheirus",
+    "dieta": "Herbívoro",
+    "tipo": "Semi-Aquático",
+    "estatisticas": {
+      "Dano": "★★★★",
+      "Defesa": "★★★★",
+      "Recuperação": "★★",
+      "Velocidade em terra": "★★",
+      "Velocidade na água": "★★★★"
+    },
+    "descricao": "O 'pato do terror' com garras longas. Este herbívoro versátil se alimenta tanto em terra quanto na água, defendendo-se com ataques de garra rápidos e surpreendentes.",
+    "subespecies": [
+      {
+        "nome": "Mirificus",
+        "bonus": "+5% de Dano de Garra"
+      },
+      {
+        "nome": "Biped",
+        "bonus": "+5% de Velocidade de Natação"
+      },
+      {
+        "nome": "Stridens",
+        "bonus": "+10% de Vida"
+      }
+    ],
+    "imagem": "https://dinosaur-web-space.sfo2.cdn.digitaloceanspaces.com/BlogImages/Deinocheirus6_1600px.jpg"
+  },
+  {
+    "name": "Eotriceratops",
+    "dieta": "Herbívoro",
+    "tipo": "Terrestre",
+    "estatisticas": {
+      "Dano": "★★★★★",
+      "Defesa": "★★★★★",
+      "Recuperação": "★",
+      "Velocidade em terra": "★★",
+      "Velocidade na água": "★★"
+    },
+    "descricao": "O maior e mais forte dos ceratopsídeos, uma muralha de chifres e determinação. Sua investida é devastadora e sua gola óssea oferece proteção extra contra ataques frontais.",
+    "subespecies": [
+      {
+        "nome": "Xerinsularis",
+        "bonus": "+5% de Dano na Cabeça"
+      },
+      {
+        "nome": "Horridus",
+        "bonus": "+10% de Defesa da Gola"
+      },
+      {
+        "nome": "Canadiensis",
+        "bonus": "+5% de Vida"
+      }
+    ],
+    "imagem": "https://dinosaur-web-space.sfo2.cdn.digitaloceanspaces.com/BlogImages/EotrikeScreenshot1.jpg"
+  },
+  {
+    "name": "Iguanodon",
+    "dieta": "Herbívoro",
+    "tipo": "Terrestre",
+    "estatisticas": {
+      "Dano": "★★★",
+      "Defesa": "★★★",
+      "Recuperação": "★★★",
+      "Velocidade em terra": "★★★",
+      "Velocidade na água": "★★★"
+    },
+    "descricao": "Um herbívoro bem balanceado e versátil, famoso por seus polegares em forma de espora usados para defesa. É um lutador decente e consegue se virar em diversas situações.",
+    "subespecies": [
+      {
+        "nome": "Bernissartensis",
+        "bonus": "+10% de Estamina"
+      },
+      {
+        "nome": "Fittoni",
+        "bonus": "+10% de Vida"
+      },
+      {
+        "nome": "Mantelli",
+        "bonus": "+5% de Velocidade de Corrida"
+      }
+    ],
+    "imagem": "https://dinosaur-web-space.sfo2.cdn.digitaloceanspaces.com/BlogImages/IguanodonFooterHerd.jpg"
+  },
+  {
+    "name": "Kentrosaurus",
+    "dieta": "Herbívoro",
+    "tipo": "Terrestre",
+    "estatisticas": {
+      "Dano": "★★",
+      "Defesa": "★★",
+      "Recuperação": "★★",
+      "Velocidade em terra": "★★",
+      "Velocidade na água": "★"
+    },
+    "descricao": "Menor que seu primo Stegosaurus, mas coberto de espinhos afiados que causam sangramento. É um alvo perigoso de se atacar, especialmente para predadores de porte médio.",
+    "subespecies": [
+      {
+        "nome": "Aethiopicus",
+        "bonus": "+10% de Dano de Sangramento"
+      },
+      {
+        "nome": "Boyi",
+        "bonus": "+5% de Velocidade de Corrida"
+      },
+      {
+        "nome": "Hennigi",
+        "bonus": "+10% de Vida"
+      }
+    ],
+    "imagem": "https://dinosaur-web-space.sfo2.cdn.digitaloceanspaces.com/BlogImages/KentroTLCPreview2.jpg"
+  },
+  {
+    "name": "Lambeosaurus",
+    "dieta": "Herbívoro",
+    "tipo": "Terrestre",
+    "estatisticas": {
+      "Dano": "★★",
+      "Defesa": "★★",
+      "Recuperação": "★★★★",
+      "Velocidade em terra": "★★★",
+      "Velocidade na água": "★★★★"
+    },
+    "descricao": "Um hadrossauro de suporte, capaz de curar a si mesmo e aos membros do seu grupo com seus gritos. É também um excelente nadador, usando a água como rota de fuga.",
+    "subespecies": [
+      {
+        "nome": "Lambei",
+        "bonus": "+10% de Eficácia de Cura"
+      },
+      {
+        "nome": "Magnicristatus",
+        "bonus": "+5% de Velocidade de Natação"
+      },
+      {
+        "nome": "Clidicristatus",
+        "bonus": "+10% de Estamina"
+      }
+    ],
+    "imagem": "https://dinosaur-web-space.sfo2.cdn.digitaloceanspaces.com/BlogImages/LambeoPreviewImage.jpg"
+  },
+  {
+    "name": "Miragaia",
+    "dieta": "Herbívoro",
+    "tipo": "Terrestre",
+    "estatisticas": {
+      "Dano": "★★",
+      "Defesa": "★★",
+      "Recuperação": "★★",
+      "Velocidade em terra": "★★",
+      "Velocidade na água": "★"
+    },
+    "descricao": "Um estegossaurídeo com um pescoço notavelmente longo e espinhos nos ombros. É especializado em infligir dano de sangramento e em se defender de ataques com sua cauda.",
+    "subespecies": [
+      {
+        "nome": "Longicollum",
+        "bonus": "+10% de Dano de Sangramento"
+      },
+      {
+        "nome": "Othnieli",
+        "bonus": "+5% de Velocidade de Corrida"
+      },
+      {
+        "nome": "Malingue",
+        "bonus": "+10% de Vida"
+      }
+    ],
+    "imagem": "https://dinosaur-web-space.sfo2.cdn.digitaloceanspaces.com/BlogImages/MiragaiaImage2.jpg"
+  },
+  {
+    "name": "Pachycephalosaurus",
+    "dieta": "Herbívoro",
+    "tipo": "Terrestre",
+    "estatisticas": {
+      "Dano": "★★",
+      "Defesa": "★",
+      "Recuperação": "★★★★",
+      "Velocidade em terra": "★★★★★",
+      "Velocidade na água": "★"
+    },
+    "descricao": "Um brawler ágil com um crânio em forma de domo, usado para desferir cabeçadas potentes que podem quebrar ossos e atordoar oponentes. Sua velocidade o torna difícil de capturar.",
+    "subespecies": [
+      {
+        "nome": "Wyomingensis",
+        "bonus": "+10% de Dano de Fratura na Cabeçada"
+      },
+      {
+        "nome": "Grangeri",
+        "bonus": "+10% de Altura de Pulo"
+      },
+      {
+        "nome": "Hogwartsia",
+        "bonus": "+10% de Estamina"
+      }
+    ],
+    "imagem": "https://dinosaur-web-space.sfo2.cdn.digitaloceanspaces.com/BlogImages/PachyTLCFamily.jpg"
+  },
+  {
+    "name": "Stegosaurus",
+    "dieta": "Herbívoro",
+    "tipo": "Terrestre",
+    "estatisticas": {
+      "Dano": "★★★★",
+      "Defesa": "★★★★",
+      "Recuperação": "★★",
+      "Velocidade em terra": "★★",
+      "Velocidade na água": "★"
+    },
+    "descricao": "Um ícone da Era Jurássica. Usa sua cauda com espigões (Thagomizer) para infligir dano massivo e sangramento, sendo uma das melhores defesas contra carnívoros de grande porte.",
+    "subespecies": [
+      {
+        "nome": "Stenops",
+        "bonus": "+10% de Dano de Sangramento"
+      },
+      {
+        "nome": "Ungulatus",
+        "bonus": "+10% de Vida"
+      },
+      {
+        "nome": "Sulcatus",
+        "bonus": "Custo de estamina reduzido para ataques de cauda"
+      }
+    ],
+    "imagem": "https://preview.redd.it/thoughts-on-the-stego-v0-7jcow9m6mpkd1.jpeg?auto=webp&s=d385b35ca7758f5c3a3a2cc32650059c7c2e19e1"
+  },
+  {
+    "name": "Struthiomimus",
+    "dieta": "Herbívoro",
+    "tipo": "Terrestre",
+    "estatisticas": {
+      "Dano": "★",
+      "Defesa": "★",
+      "Recuperação": "★★★★★",
+      "Velocidade em terra": "★★★★★",
+      "Velocidade na água": "★★"
+    },
+    "descricao": "O dinossauro mais rápido do jogo. Um especialista em fugir do perigo, roubar ovos de ninhos e dar suporte ao grupo com gritos que aumentam a velocidade dos aliados.",
+    "subespecies": [
+      {
+        "nome": "Altus",
+        "bonus": "+10% de Altura de Pulo"
+      },
+      {
+        "nome": "Sedens",
+        "bonus": "+10% de Estamina"
+      },
+      {
+        "nome": "Samuil",
+        "bonus": "+5% de Velocidade de Corrida"
+      }
+    ],
+    "imagem": "https://dinosaur-web-space.sfo2.cdn.digitaloceanspaces.com/BlogImages/StruthiTLCBannerBlogPost.jpg"
+  },
+  {
+    "name": "Styracosaurus",
+    "dieta": "Herbívoro",
+    "tipo": "Terrestre",
+    "estatisticas": {
+      "Dano": "★★★★",
+      "Defesa": "★★★★",
+      "Recuperação": "★★",
+      "Velocidade em terra": "★★",
+      "Velocidade na água": "★★"
+    },
+    "descricao": "Um ceratopsídeo agressivo, cuja gola é coberta por espinhos afiados que causam dano e sangramento a qualquer um que o ataque pela frente. Um verdadeiro porco-espinho blindado.",
+    "subespecies": [
+      {
+        "nome": "Albertensis",
+        "bonus": "+10% de Dano de Sangramento na Gola"
+      },
+      {
+        "nome": "Ovatus",
+        "bonus": "+5% de Velocidade de Corrida"
+      },
+      {
+        "nome": "Parksi",
+        "bonus": "+10% de Vida"
+      }
+    ],
+    "imagem": "https://pbs.twimg.com/media/EarytvLXkAMRl8o.jpg:large"
+  }
+]
