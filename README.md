@@ -8,7 +8,7 @@ Este projeto é um Guia de Campo interativo para o jogo de sobrevivência de din
 
 A aplicação foi criada com foco em uma experiência de usuário moderna e temática, replicando a identidade visual do jogo e fornecendo dados precisos e relevantes para auxiliar os jogadores a tomarem decisões estratégicas.
 
-O site está no ar e pode ser acessado aqui: **[Link para o seu GitHub Pages]** *(Adicione o link aqui depois de fazer o deploy)*
+O site está no ar e pode ser acessado aqui: **(https://jvllemos.github.io/guia-path-of-titans/)** 
 
 ---
 
