@@ -4,7 +4,7 @@
 
 ## 📖 Sobre o Projeto
 
-Este projeto é um Guia de Campo interativo para o jogo de sobrevivência de dinossauros **Path of Titans**. Desenvolvido como um projeto final de curso de programação web, o site serve como uma ferramenta útil para a comunidade de jogadores, permitindo a visualização, filtragem e comparação de todas as criaturas jogáveis "vanilla" do jogo.
+Este projeto é um Guia de Campo interativo para o jogo de sobrevivência de dinossauros **Path of Titans**. Desenvolvido como um projeto final de curso de programação web, o site serve como uma ferramenta útil para a comunidade de jogadores, permitindo a visualização e filtragem de todas as criaturas jogáveis "vanilla" do jogo.
 
 A aplicação foi criada com foco em uma experiência de usuário moderna e temática, replicando a identidade visual do jogo e fornecendo dados precisos e relevantes para auxiliar os jogadores a tomarem decisões estratégicas.
 
