@@ -1,308 +1,3 @@
-:root {
-    --cor-fundo-escuro: #0a0d0a;
-    --cor-fundo-secao: #101511;
-    --cor-texto-principal: #e0e0e0;
-    --cor-texto-secundario: #8c968d;
-    --cor-destaque-laranja: #d57b3c;
-    --cor-destaque-vermelho: #b05244;
-    --fonte-principal: 'Montserrat', sans-serif;
-    --fonte-titulos: 'Teko', sans-serif;
-}
-
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    scroll-behavior: smooth;
-}
-
-body {
-    background-color: var(--cor-fundo-escuro);
-    color: var(--cor-texto-principal);
-    font-family: var(--fonte-principal);
-}
-
-.logo {
-    height: 40px;
-    width: auto;
-}
-
-.video-fundo {
-    position: fixed;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100vh;
-    z-index: -1;
-    overflow: hidden;
-}
-
-.video-fundo video {
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
-}
-
-.video-fundo::after {
-    content: '';
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    background: linear-gradient(to top, rgba(10, 13, 10, 1) 5%, rgba(10, 13, 10, 0.5) 100%);
-}
-
-.conteudo-rolavel {
-    position: relative;
-    z-index: 1;
-    background-color: transparent;
-}
-
-.navegacao-principal {
-    position: fixed;
-    top: 0;
-    left: 0;
-    width: 100%;
-    z-index: 10;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 1rem 5%;
-    background-color: rgba(10, 13, 10, 0.8);
-    backdrop-filter: blur(8px);
-    border-bottom: 1px solid rgba(213, 123, 60, 0.2);
-    height: 70px;
-    transition: background-color 0.3s ease;
-}
-
-.links-navegacao {
-    display: flex;
-    align-items: center;
-}
-
-.links-navegacao a {
-    text-decoration: none;
-    font-size: 1rem;
-    font-weight: 700;
-    color: var(--cor-texto-secundario);
-    padding: 0 1.5rem;
-    height: 70px;
-    line-height: 70px;
-    transition: color 0.3s ease;
-    text-transform: uppercase;
-    letter-spacing: 1px;
-}
-
-.links-navegacao a:hover {
-    color: var(--cor-destaque-laranja);
-}
-
-.secao-hero {
-    height: 100vh;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    text-align: center;
-    padding: 0 2rem;
-}
-
-.caixa-central {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    padding: 3rem;
-    background-color: rgba(0, 0, 0, 0.5);
-    border-radius: 10px;
-    border: 1px solid rgba(255, 255, 255, 0.1);
-}
-
-.caixa-central h1 {
-    font-family: var(--fonte-titulos);
-    font-size: 4.5rem;
-    font-weight: 600;
-    margin-bottom: 1rem;
-    letter-spacing: 2px;
-    text-shadow: 2px 2px 8px rgba(0, 0, 0, 0.7);
-}
-
-.caixa-central p {
-    font-size: 1.1rem;
-    color: var(--cor-texto-secundario);
-    margin-bottom: 2rem;
-    max-width: 600px;
-}
-
-.botao-principal {
-    display: inline-block;
-    text-decoration: none;
-    color: white;
-    background-color: var(--cor-destaque-laranja);
-    padding: 15px 40px;
-    border-radius: 5px;
-    font-weight: bold;
-    text-transform: uppercase;
-    transition: background-color 0.3s, transform 0.2s;
-    letter-spacing: 1px;
-    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.4);
-}
-
-.botao-principal:hover {
-    background-color: #e68a4d;
-    transform: translateY(-3px);
-}
-
-.secao {
-    padding: 6rem 5%;
-    background-color: var(--cor-fundo-secao);
-}
-
-.secao:nth-child(even) {
-    background-color: var(--cor-fundo-escuro);
-}
-
-.container {
-    max-width: 1200px;
-    margin: 0 auto;
-    text-align: center;
-}
-
-.secao h2 {
-    font-family: var(--fonte-titulos);
-    font-size: 3.5rem;
-    font-weight: 600;
-    color: var(--cor-destaque-laranja);
-    margin-bottom: 1rem;
-    text-transform: uppercase;
-}
-
-.secao p {
-    font-size: 1.1rem;
-    line-height: 1.8;
-    color: var(--cor-texto-secundario);
-    max-width: 800px;
-    margin: 0 auto 3rem auto;
-}
-
-.mapa-container {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    gap: 2rem;
-    text-align: left;
-}
-
-.mapa-item h3 {
-    font-family: var(--fonte-titulos);
-    font-size: 2.5rem;
-    color: var(--cor-texto-principal);
-    margin-bottom: 1rem;
-    border-left: 4px solid var(--cor-destaque-laranja);
-    padding-left: 1rem;
-}
-
-.container-imagem-mapa {
-    border-radius: 8px;
-    overflow: hidden;
-    margin-bottom: 1rem;
-    border: 1px solid #333;
-}
-
-.mapa-principal {
-    width: 100%;
-    height: auto;
-    display: block;
-    transition: transform 0.3s ease;
-}
-
-.mapa-principal:hover {
-    transform: scale(1.05);
-}
-
-.galeria-mapa {
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    gap: 1rem;
-}
-
-.galeria-mapa img {
-    width: 100%;
-    height: 120px;
-    object-fit: cover;
-    border-radius: 6px;
-    border: 1px solid #333;
-    transition: transform 0.3s ease, box-shadow 0.3s ease;
-}
-
-.galeria-mapa img:hover {
-    transform: scale(1.1);
-    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.5);
-    z-index: 5;
-    position: relative;
-}
-
-.secao-chamada-acao {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    padding: 6rem 5%;
-    text-align: center;
-    background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url('https://dinosaur-web-space.sfo2.cdn.digitaloceanspaces.com/BlogImages/SwimAirPhoto.jpg');
-    background-size: cover;
-    background-position: center;
-    background-attachment: fixed;
-    height: 50vh;
-}
-
-.container {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    gap: 2rem;
-
-}
-
-.botao-grande {
-    padding: 20px 50px;
-    font-size: 1.2rem;
-}
-
-.rodape {
-    padding: 3rem 5%;
-    text-align: center;
-    background-color: #000;
-    color: var(--cor-texto-secundario);
-    font-size: 0.9rem;
-}
-
-
-.rodape p {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    gap: 8px;
-}
-
-
-.rodape a {
-    color: var(--cor-texto-secundario);
-    text-decoration: none;
-    transition: color 0.3s ease;
-}
-
-.rodape a .fa-github {
-    font-size: 1.5rem;
-    vertical-align: middle;
-}
-
-
-.rodape a:hover {
-    color: var(--cor-destaque-laranja);
-}
-
-/* --- ESTILOS DA PÁGINA DOS DINOSSAUROS --- */
-
 .corpo-galeria {
     padding-top: 70px;
 }
@@ -369,7 +64,7 @@ body {
 }
 
 .grupo-filtro button:hover {
-    background-color: var(--cor-card-fundo);
+    background-color: var(--cor-fundo-secao);
     color: var(--cor-texto-principal);
 }
 
@@ -377,6 +72,26 @@ body {
     background-color: var(--cor-destaque-laranja);
     border-color: var(--cor-destaque-laranja);
     color: white;
+}
+
+.grupo-filtro label {
+    font-size: 0.9rem;
+    color: var(--cor-texto-secundario);
+    font-weight: 700;
+    margin-right: 10px;
+    display: flex;
+    align-items: center;
+}
+
+#seletor-ordem {
+    background-color: var(--cor-fundo-escuro);
+    border: 1px solid var(--cor-texto-secundario);
+    color: var(--cor-texto-secundario);
+    padding: 8px 12px;
+    border-radius: 20px;
+    cursor: pointer;
+    font-family: var(--fonte-principal);
+    font-weight: 700;
 }
 
 #galeria-container {
@@ -540,26 +255,6 @@ body {
     color: var(--cor-texto-secundario);
 }
 
-.grupo-filtro label {
-    font-size: 0.9rem;
-    color: var(--cor-texto-secundario);
-    font-weight: 700;
-    margin-right: 10px;
-}
-
-#seletor-ordem {
-    background-color: var(--cor-fundo-escuro);
-    border: 1px solid var(--cor-texto-secundario);
-    color: var(--cor-texto-secundario);
-    padding: 8px 12px;
-    border-radius: 20px;
-    cursor: pointer;
-    font-family: var(--fonte-principal);
-    font-weight: 700;
-}
-
-/* --- ESTILOS DO MODAL DE DETALHES --- */
-
 .modal-escondido {
     visibility: hidden;
     opacity: 0;
@@ -664,34 +359,27 @@ body {
     color: var(--cor-texto-secundario);
 }
 
-/* Impede a rolagem da página principal quando o modal está aberto */
 body.modal-aberto {
     overflow: hidden;
 }
-
-/* --- ESTILOS DO BOTÃO VOLTAR AO TOPO --- */
 
 #botao-topo {
     position: fixed;
     bottom: 20px;
     right: 20px;
-    z-index: 500; /* Abaixo do modal, mas acima do conteúdo */
-    
+    z-index: 500;
     background-color: var(--cor-destaque-laranja);
     color: white;
     border: none;
-    border-radius: 50%; /* Deixa o botão redondo */
+    border-radius: 50%;
     width: 50px;
     height: 50px;
     font-size: 1.2rem;
-    
     display: flex;
     justify-content: center;
     align-items: center;
-    
     cursor: pointer;
     box-shadow: 0 4px 10px rgba(0,0,0,0.4);
-    
     opacity: 1;
     visibility: visible;
     transform: translateY(0);
@@ -701,7 +389,7 @@ body.modal-aberto {
 #botao-topo.escondido {
     opacity: 0;
     visibility: hidden;
-    transform: translateY(20px); /* Efeito de deslizar para cima ao aparecer */
+    transform: translateY(20px);
 }
 
 #botao-topo:hover {

@@ -1,0 +1,32 @@
+[
+  {
+    "id": 1,
+    "imagemUrl": "https://web-cdn.alderongames.com/files/221/f3ccdd27d2000e3f9255a7e3e2c48800.jpg",
+    "titulo": "Domine a Terra, o Céu e o Mar",
+    "descricao": "Cada criatura é especialista em um bioma. Escolha com sabedoria."
+  },
+  {
+    "id": 2,
+    "imagemUrl": "https://images.squarespace-cdn.com/content/v1/5bb02004d74562f45014f525/1666810842813-I61GNN162W6R1M3A1L68/Path-of-Titans-Screenshot-2022.10.26---14.39.04.53.png",
+    "titulo": "Sobrevivência em Grupo",
+    "descricao": "Junte-se a um rebanho ou a uma matilha para aumentar suas chances de sobrevivência."
+  },
+  {
+    "id": 3,
+    "imagemUrl": "https://pbs.twimg.com/media/GnEL5PjWUAIPRK3?format=jpg&name=large",
+    "titulo": "Confrontos Titânicos",
+    "descricao": "Enfrente outros jogadores em combates que exigem tática e habilidade."
+  },
+  {
+    "id": 4,
+    "imagemUrl": "https://dinosaur-web-space.sfo2.cdn.digitaloceanspaces.com/BlogImages/Deinocheirus6_1600px.jpg",
+    "titulo": "Ecossistemas Vibrantes",
+    "descricao": "Explore os vastos e belos cenários de Gondwa e Panjura."
+  },
+  {
+    "id": 5,
+    "imagemUrl": "https://pbs.twimg.com/media/F4Kz-6cWQAAG0_y?format=jpg&name=large",
+    "titulo": "Cresça e Evolua",
+    "descricao": "Comece como um filhote e complete missões para se tornar um adulto poderoso."
+  }
+]

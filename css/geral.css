@@ -1,0 +1,105 @@
+:root {
+    --cor-fundo-escuro: #0a0d0a;
+    --cor-fundo-secao: #101511;
+    --cor-texto-principal: #e0e0e0;
+    --cor-texto-secundario: #8c968d;
+    --cor-destaque-laranja: #d57b3c;
+    --cor-destaque-vermelho: #b05244;
+    --cor-destaque-verde: #5a9d68;
+    --fonte-principal: 'Montserrat', sans-serif;
+    --fonte-titulos: 'Teko', sans-serif;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+
+body {
+    background-color: var(--cor-fundo-escuro);
+    color: var(--cor-texto-principal);
+    font-family: var(--fonte-principal);
+}
+
+.logo {
+    height: 40px;
+    width: auto;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.conteudo-rolavel {
+    position: relative;
+    z-index: 1;
+    background-color: transparent;
+}
+
+.navegacao-principal {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 10;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem 5%;
+    background-color: rgba(10, 13, 10, 0.8);
+    backdrop-filter: blur(8px);
+    border-bottom: 1px solid rgba(213, 123, 60, 0.2);
+    height: 70px;
+    transition: background-color 0.3s ease;
+}
+
+.links-navegacao {
+    display: flex;
+    align-items: center;
+}
+
+.links-navegacao a {
+    text-decoration: none;
+    font-size: 1rem;
+    font-weight: 700;
+    color: var(--cor-texto-secundario);
+    padding: 0 1.5rem;
+    height: 70px;
+    line-height: 70px;
+    transition: color 0.3s ease;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+
+.links-navegacao a:hover {
+    color: var(--cor-destaque-laranja);
+}
+
+.rodape {
+    padding: 3rem 5%;
+    text-align: center;
+    background-color: #000;
+    color: var(--cor-texto-secundario);
+    font-size: 0.9rem;
+}
+
+.rodape p {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 8px;
+}
+
+.rodape a {
+    color: var(--cor-texto-secundario);
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+
+.rodape a:hover {
+    color: var(--cor-destaque-laranja);
+}
