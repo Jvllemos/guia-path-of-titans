@@ -32,6 +32,7 @@ body {
     max-width: 1200px;
     margin: 0 auto;
     text-align: center;
+    
 }
 
 .conteudo-rolavel {
@@ -102,4 +103,53 @@ body {
 
 .rodape a:hover {
     color: var(--cor-destaque-laranja);
+}
+
+/* --- ESTILIZAÇÃO DA BARRA DE ROLAGEM (SCROLLBAR) --- */
+
+/* Para Firefox */
+html {
+  scrollbar-width: thin;
+  scrollbar-color: var(--cor-destaque-laranja) var(--cor-fundo-escuro);
+}
+
+/* Para Chrome, Edge, Safari e outros baseados em WebKit */
+
+/* Define a largura da barra de rolagem */
+::-webkit-scrollbar {
+  width: 12px;
+}
+
+/* Estiliza o fundo (o "trilho" por onde a barra corre) */
+::-webkit-scrollbar-track {
+  background: var(--cor-fundo-escuro);
+}
+
+/* Estiliza a alça da barra de rolagem */
+::-webkit-scrollbar-thumb {
+  background-color: var(--cor-destaque-laranja);
+  border-radius: 20px;
+  /* Cria um efeito de "preenchimento" ao redor da alça */
+  border: 3px solid var(--cor-fundo-escuro); 
+}
+
+/* Estiliza a alça quando o mouse está por cima */
+::-webkit-scrollbar-thumb:hover {
+  background-color: #e68a4d; /* Um tom um pouco mais claro do laranja de destaque */
+}
+
+/* --- ESTILIZAÇÃO DA SELEÇÃO DE TEXTO --- */
+
+/* Para a maioria dos navegadores (Chrome, Edge, Safari, Opera) */
+::selection {
+  background-color: var(--cor-destaque-laranja);
+  color: var(--cor-fundo-escuro);
+  text-shadow: none; /* Remove a sombra do texto para melhor legibilidade */
+}
+
+/* Para o Firefox */
+::-moz-selection {
+  background-color: var(--cor-destaque-laranja);
+  color: var(--cor-fundo-escuro);
+  text-shadow: none;
 }

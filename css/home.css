@@ -234,3 +234,17 @@
 .swiper-pagination-bullet-active {
     background: var(--cor-destaque-laranja) !important;
 }
+
+#comprar .container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    gap: 2rem;
+}
+
+#comprar p {
+    font-size: 1.2rem;
+    color: var(--cor-texto-secundario);
+    max-width: 600px;
+}
